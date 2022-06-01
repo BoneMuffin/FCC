@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+
+body{
+  display:flex;
+  text-align:center;
+}
+form {
+  width: 85%; 
+  border-radius:5px;
+  height: auto;
+  background: rgb(135, 119, 122)
+  }
+
+
+.container {
+   width: 350px;
+max-width:10in;
+   display:flex;
+   justify-content:center;
+  flex-direction:column;
+}
+
+
+body{
+  background:rgb(209, 196, 190);
+  font-family:'Akshar', sans-serif;
+  line-height:1.5;
+  width:500px;
+  margin: auto;
+
+}
+
+
+.input-textarea {
+  width: 100%;
+  padding: 0.4rem;
+}
+button {
+  border: none;
+  background:rgb(83, 73, 95);
+}
+
+
+button {
+  width:100%;
+border-radius:2px;
+padding: 0.5mm;
+cursor:pointer;
+}
+
+.input-headings {
+  display:flex;
+  margin: 0 auto 1.25rem auto;
+}
+
+@media only screen and (max-width: 800px) 
+{
+  form {
+  width: 95%; 
+  height: auto;}
+}
+
+.form-inputs {
+  height: 2rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  text-align:center;
+vertical-align:middle;
+
+}
+
+
+
+#name-label {
+  display:flex;
+}
+#email-label{
+  display:flex;
+}
+#number-label{
+  display:flex;
+}
+
+p{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
